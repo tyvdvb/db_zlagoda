@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zlagoda</title>
+  <link href="../css/bootstrap-4.4.1.css" rel="stylesheet">
+  <link href="../css/badge.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<body style="background-color: #6b805f">
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger text-white">
+    <div class="container-fluid">
+      <img class="mr-3" src="../images/shopping.png" style="height: 100px" title="Zlagoda" alt="logo">
+      <h1 class="navbar-brand ">Zlagoda</h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="manager_queries.html">Manager queries page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="manager.html">Manager page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+                        <span class="badge-lg badge-pill badge-red">Logged in as:
+				  <a href="../user.html" id="workerID"> @workerID@ </a>
+			  </span>
+          <!--			  <a  href="login.html" class="btn badge-red text-white">User</a>-->
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+<main>
+  <br>
+  <h1 class="text-center"><span class="badge badge-pill text-white badge-danger">Queries</span></h1>
+  <br>
+  <br>
+  <div class="text-white">
+    <!--    5-->
+<!--    <div class="card bg-danger">-->
+<!--      <div class="card-header">-->
+<!--        <div class="row">-->
+<!--          <div class="col-2 col-lg-11">-->
+<!--            <h2><span class="badge badge-pill text-white badge-red">All workers ( sort by lastname )</span></h2>-->
+<!--          </div>-->
+<!--          <div class="col-1 col-lg-1 text-center"><a href="#" class="btn badge-lg badge-pill badge-red text-white">Do it!</a></div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <br>-->
+
+    <!--    6-->
+    <div class="card bg-danger">
+      <div class="card-header">
+        <div class="row">
+          <div class="col-2 col-lg-11">
+            <h2><span class="badge badge-pill text-white badge-red">All cashiers ( sorted by lastname )</span></h2>
+          </div>
+          <div class="col-1 col-lg-1 text-center"><a href="queries/cashier_by_lastname.html" class="btn badge-lg badge-pill badge-red text-white">Do it!</a></div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <!--    7-->
+        <div class="card bg-danger">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-2 col-lg-11">
+                <h2><span class="badge badge-pill text-white badge-red">All customers info ( sorted by lastname )</span></h2>
+              </div>
+              <div class="col-1 col-lg-1 text-center"><a href="queries/customers_info_by_lastname.html" class="btn badge-lg badge-pill badge-red text-white">Do it!</a></div>
+            </div>
+          </div>
+        </div>
+        <br>
+
+    <!--    8-->
+        <div class="card bg-danger">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-2 col-lg-11">
+                <h2><span class="badge badge-pill text-white badge-red">All categories ( sorted by name )</span></h2>
+              </div>
+              <div class="col-1 col-lg-1 text-center"><a href="queries/categories_by_name.html" class="btn badge-lg badge-pill badge-red text-white">Do it!</a></div>
+            </div>
+          </div>
+        </div>
+        <br>
+
+
+<!--    9-->
+    <div class="card bg-danger">
+      <div class="card-header">
+        <div class="row">
+          <div class="col-2 col-lg-11">
+            <h2><span class="badge badge-pill text-white badge-red">All products ( sorted by name )</span></h2>
+          </div>
+          <div class="col-1 col-lg-1 text-center"><a href="queries/products_by_name.html" class="btn badge-lg badge-pill badge-red text-white">Do it!</a></div>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <!--    10-->
+    <!--    <div class="card bg-danger">-->
+    <!--      <div class="card-header">-->
+    <!--        <div class="row">-->
+    <!--          <div class="col-2 col-lg-11">-->
+    <!--            <h2><span class="badge badge-pill text-white badge-red">All products in store ( sorted by quantity )</span></h2>-->
+    <!--          </div>-->
+    <!--          <div class="col-1 col-lg-1 text-center"><a href="#" class="btn badge-lg badge-pill badge-red text-white">Do it!</a></div>-->
+    <!--        </div>-->
+    <!--      </div>-->
+    <!--    </div>-->
+    <!--    <br>-->
+
+    <!--    11-->
+        <div class="card bg-danger">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-2 col-lg-11">
+                <h2><span class="badge badge-pill text-white badge-red">Worker's address/number by last name</span></h2>
+              </div>
+              <div class="col-1 col-lg-1 text-center"><a href="queries/worker_address_number.html" class="btn badge-lg badge-pill badge-red text-white">Do it!</a></div>
+            </div>
+          </div>
+        </div>
+        <br>
+
+    <!--    12-->
+        <div class="card bg-danger">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-2 col-lg-11">
+                <h2><span class="badge badge-pill text-white badge-red">All customers info with % card ( sorted by lastname )</span></h2>
+              </div>
+              <div class="col-1 col-lg-1 text-center"><a href="#" class="btn badge-lg badge-pill badge-red text-white">Do it!</a></div>
+            </div>
+          </div>
+        </div>
+      <br>
+
+    <!--    13-->
+        <div class="card bg-danger">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-2 col-lg-11">
+                <h2><span class="badge badge-pill text-white badge-red">Find products by category</span></h2>
+              </div>
+              <div class="col-1 col-lg-1 text-center"><a href="queries/find_products_by_category.html" class="btn badge-lg badge-pill badge-red text-white">Do it!</a></div>
+            </div>
+          </div>
+        </div>
+        <br>
+
+    <!--    14-->
+        <div class="card bg-danger">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-2 col-lg-11">
+                <h2><span class="badge badge-pill text-white badge-red">Search by UPC</span></h2>
+              </div>
+              <div class="col-1 col-lg-1 text-center"><a href="queries/search_by_UPC.html" class="btn badge-lg badge-pill badge-red text-white">Do it!</a></div>
+            </div>
+          </div>
+        </div>
+        <br>
+    <!--    15-->
+        <div class="card bg-danger">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-2 col-lg-11">
+                <h2><span class="badge badge-pill text-white badge-red">Discount products</span></h2>
+              </div>
+              <div class="col-1 col-lg-1 text-center"><a href="queries/discount_products_info.html" class="btn badge-lg badge-pill badge-red text-white">Do it!</a></div>
+            </div>
+          </div>
+        </div>
+        <br>
+    <!--    16-->
+        <div class="card bg-danger">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-2 col-lg-11">
+                <h2><span class="badge badge-pill text-white badge-red">Non-discount products</span></h2>
+              </div>
+              <div class="col-1 col-lg-1 text-center"><a href="queries/nondiscount_products.html" class="btn badge-lg badge-pill badge-red text-white">Do it!</a></div>
+            </div>
+          </div>
+        </div>
+        <br>
+    <!--    17-->
+        <div class="card bg-danger">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-2 col-lg-11">
+                <h2><span class="badge badge-pill text-white badge-red">Receipts by the specific cashier</span></h2>
+              </div>
+              <div class="col-1 col-lg-1 text-center"><a href="queries/receipts_by_specific_cashier.html" class="btn badge-lg badge-pill badge-red text-white">Do it!</a></div>
+            </div>
+          </div>
+        </div>
+        <br>
+    <!--    18-->
+        <div class="card bg-danger">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-2 col-lg-11">
+                <h2><span class="badge badge-pill text-white badge-red">Receipts by all cashiers</span></h2>
+              </div>
+              <div class="col-1 col-lg-1 text-center"><a href="queries/receipts_by_all_cashiers.html" class="btn badge-lg badge-pill badge-red text-white">Do it!</a></div>
+            </div>
+          </div>
+        </div>
+        <br>
+    <!--    19-->
+        <div class="card bg-danger">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-2 col-lg-11">
+                <h2><span class="badge badge-pill text-white badge-red">Total made by the specific cashier</span></h2>
+              </div>
+              <div class="col-1 col-lg-1 text-center"><a href="queries/total_made_specific_cashier.html" class="btn badge-lg badge-pill badge-red text-white">Do it!</a></div>
+            </div>
+          </div>
+        </div>
+        <br>
+
+
+    <!--    20-->
+        <div class="card bg-danger">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-2 col-lg-11">
+                <h2><span class="badge badge-pill text-white badge-red">Total made by all cashiers</span></h2>
+              </div>
+              <div class="col-1 col-lg-1 text-center"><a href="queries/total_made_all_cashiers.html" class="btn badge-lg badge-pill badge-red text-white">Do it!</a></div>
+            </div>
+          </div>
+        </div>
+        <br>
+
+    <!--    21-->
+        <div class="card bg-danger">
+          <div class="card-header">
+            <div class="row">
+              <div class="col-2 col-lg-11">
+                <h2><span class="badge badge-pill text-white badge-red">Number of product units sold</span></h2>
+              </div>
+              <div class="col-1 col-lg-1 text-center"><a href="queries/product_units_sold.html" class="btn badge-lg badge-pill badge-red text-white">Do it!</a></div>
+            </div>
+          </div>
+        </div>
+        <br>
+
+
+
+
+
+
+    <!--    <div class="card bg-danger">-->
+<!--      <div class="card-header">-->
+<!--        <div class="row">-->
+<!--          <div class="col-2 col-lg-11">-->
+<!--            <h2><span class="badge badge-pill text-white badge-red">Products</span></h2>-->
+<!--          </div>-->
+<!--          <div class="col-1 col-lg-1 text-center"><a href="#" class="btn badge-lg badge-pill badge-red text-white">Do it!</a></div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <br>-->
+<!--    <div class="card bg-danger">-->
+<!--      <div class="card-header">-->
+<!--        <div class="row">-->
+<!--          <div class="col-2 col-lg-11">-->
+<!--            <h2><span class="badge badge-pill text-white badge-red">All products by products-sho?</span></h2>-->
+<!--          </div>-->
+<!--          <div class="col-1 col-lg-1 text-center"><a href="#" class="btn badge-lg badge-pill badge-red text-white">Do it!</a></div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <br>-->
+
+  </div>
+</main>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!--<footer class="footer mt-auto bg-danger py-1 text-white">-->
+<!--  <div class="text-center offset-lg-0 col-lg-12">-->
+<!--    <address>-->
+<!--      <strong>Shitcoding inc.</strong><br>-->
+<!--      Ukraine 2021 <br>-->
+<!--      Develoved by: <span class="badge badge-pill badge-red">Yehor Podolskyi</span> <span class="badge badge-pill badge-red" >Katya Ponamarenko</span> <span class="badge badge-pill badge-red">Sasha Zolotarevych</span>-->
+<!--      <p>Copyright © Zlagoda. All rights reserved.</p>-->
+<!--    </address>-->
+<!--  </div>-->
+<!--</footer>-->
+</body>
+
+</html>
