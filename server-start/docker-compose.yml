@@ -1,0 +1,26 @@
+version: '3.1'
+
+
+
+
+services:
+
+  db:
+
+    container_name: db-zlagoda-api
+
+    image: postgres
+
+    restart: always
+
+    environment:
+
+      POSTGRES_USER: root
+
+      POSTGRES_PASSWORD: postgres
+
+      POSTGRES_DB: zlagoda-api
+
+    ports:
+
+      - '5433:5432'
